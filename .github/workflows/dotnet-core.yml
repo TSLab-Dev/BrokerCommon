@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 3.1.300
     - name: Restore packages
@@ -23,7 +23,7 @@ jobs:
       run: dotnet pack --configuration Release
     - name: Publish
       id: publish_nuget
-      uses: rohith/publish-nuget@v2
+      uses: Rebel028/publish-nuget@v2.8.0
       with:
         PROJECT_FILE_PATH: BrokerCommon.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
