@@ -23,7 +23,7 @@ jobs:
       run: dotnet pack --configuration Release
     - name: Publish
       id: publish_nuget
-      uses: Rebel028/publish-nuget@v2.8.0
+      uses: tedd/publish-nuget-neo@v1
       with:
         PROJECT_FILE_PATH: BrokerCommon.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
