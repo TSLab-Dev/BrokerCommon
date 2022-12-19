@@ -3,7 +3,7 @@ namespace TSLab.DataSource
 {
     public enum Broker
     {
-        Undefined = 0,
+        Unknown = 0,
         Bitfinex = 1,
         BinanceSpot = 2,
         Deribit = 3,
@@ -53,7 +53,9 @@ namespace TSLab.DataSource
         QuikBcs = 47, // 0x0000002F
         QuikOpen = 48, // 0x00000030
         Bittrex = 49, // 0x00000031
-    
-        Unknown = 999, // 0x000003E7
+        TextFiles = 50, // 0x00000032
+        CvsFiles = 51, // 0x00000033
+        BinFiles = 52, // 0x00000034
+        YahooFinanceFiles = 53, // 0x00000035
 	}
 }
