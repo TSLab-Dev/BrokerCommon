@@ -57,5 +57,6 @@ namespace TSLab.DataSource
         CvsFiles = 51, // 0x00000033
         BinFiles = 52, // 0x00000034
         YahooFinanceFiles = 53, // 0x00000035
+        BitgetPerpUsdt = 54, // 0x00000036
 	}
 }
