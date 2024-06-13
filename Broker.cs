@@ -59,5 +59,19 @@ namespace TSLab.DataSource
         YahooFinanceFiles = 53, // 0x00000035
         BitgetPerpUsdt = 54, // 0x00000036
         KucoinPerpUsdt = 55, // 0x00000037
+		 //Linked providers
+        LinkedBinanceSpot = 56,
+        LinkedBinanceFutures = 57,
+        LinkedBinanceMargin = 58,
+        LinkedBinanceFutCoin = 59,
+        LinkedByBitSpot = 60,
+        LinkedByBitPerpUsdt = 61,
+        LinkedByBitPerpInverse = 62,
+        LinkedByBitFutInverse = 63,
+        LinkedDeribit = 64,
+        LinkedOkxSpot = 65,
+        LinkedOkxMargin = 66,
+        LinkedOkxPerpSwap = 67,
+		LinkedOkxFutures = 68,
 	}
 }
