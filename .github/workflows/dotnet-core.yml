@@ -25,5 +25,5 @@ jobs:
       id: publish_nuget
       uses: rohith/publish-nuget@v2
       with:
-        PROJECT_FILE_PATH: ScriptCommonHandlers.csproj
+        PROJECT_FILE_PATH: BrokerCommon.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
