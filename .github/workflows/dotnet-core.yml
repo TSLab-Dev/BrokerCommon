@@ -23,7 +23,7 @@ jobs:
       run: dotnet pack --configuration Release
     - name: Publish
       id: publish_nuget
-      uses: rohith/publish-nuget@v2
+      uses: alirezanet/publish-nuget@v3.1.0
       with:
         PROJECT_FILE_PATH: BrokerCommon.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
