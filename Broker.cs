@@ -73,5 +73,8 @@ namespace TSLab.DataSource
         LinkedOkxMargin = 66,
         LinkedOkxPerpSwap = 67,
 		LinkedOkxFutures = 68,
+		CoinBaseSpot = 69,
+		CoinBaseFuture = 70,
+		CoinBasePerp = 71,
 	}
 }
