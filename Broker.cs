@@ -76,5 +76,13 @@ namespace TSLab.DataSource
 		CoinBaseSpot = 69,
 		CoinBaseFuture = 70,
 		CoinBasePerp = 71,
+        OkxSpotDemo = 72,
+        OkxMarginDemo = 73,
+        OkxPerpSwapDemo = 74,
+        OkxFuturesDemo = 75,
+        ByBitSpotDemo = 76,
+        ByBitPerpUsdtDemo = 77,
+        ByBitPerpInverseDemo = 78,
+        ByBitFutInverseDemo = 79,
 	}
 }
