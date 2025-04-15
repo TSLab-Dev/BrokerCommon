@@ -84,5 +84,8 @@ namespace TSLab.DataSource
         ByBitPerpUsdtDemo = 77,
         ByBitPerpInverseDemo = 78,
         ByBitFutInverseDemo = 79,
+		BingXSpot = 80,
+		BingXFuture = 81,
+		BingXPerp = 82,
 	}
 }
