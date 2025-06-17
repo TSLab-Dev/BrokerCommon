@@ -27,6 +27,15 @@
                 case Broker.ByBitPerpUsdt:
                 case Broker.ByBitPerpInverse:
                 case Broker.ByBitFutInverse:
+                case Broker.BingXSpot:
+                case Broker.BingXFuture:
+                case Broker.BingXPerp:
+                case Broker.CoinBaseSpot:
+                case Broker.CoinBaseFuture:
+                case Broker.CoinBasePerp:
+                case Broker.MlTechBybitUsdtDS:
+                case Broker.MlTechBinanceUsdtDS:
+                case Broker.MlTechOkxUsdtDS:
                     return "Bitcoin";
                 default:
                     return broker.ToString();

@@ -87,5 +87,8 @@ namespace TSLab.DataSource
 		BingXSpot = 80,
 		BingXFuture = 81,
 		BingXPerp = 82,
+		MlTechBybitUsdtDS = 83,
+		MlTechBinanceUsdtDS = 84,
+		MlTechOkxUsdtDS = 85
 	}
 }
