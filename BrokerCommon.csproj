@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>TSLab.DataSource</RootNamespace>
     <AssemblyName>TSLab.Broker.Common</AssemblyName>
-    <AssemblyVersion>2.2.10</AssemblyVersion>
-	<Version>2.2.10</Version>
+    <AssemblyVersion>2.2.11</AssemblyVersion>
+	<Version>2.2.11</Version>
   </PropertyGroup>
 
 </Project>
