@@ -89,6 +89,8 @@ namespace TSLab.DataSource
 		BingXPerp = 82,
 		MlTechBybitUsdtDS = 83,
 		MlTechBinanceUsdtDS = 84,
-		MlTechOkxUsdtDS = 85
-	}
+		MlTechOkxUsdtDS = 85,
+        HyperliquidSpot = 86,
+        HyperliquidPerp = 87
+    }
 }

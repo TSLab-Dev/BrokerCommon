@@ -36,6 +36,8 @@
                 case Broker.MlTechBybitUsdtDS:
                 case Broker.MlTechBinanceUsdtDS:
                 case Broker.MlTechOkxUsdtDS:
+                case Broker.HyperliquidSpot:
+                case Broker.HyperliquidPerp:
                     return "Bitcoin";
                 default:
                     return broker.ToString();
