@@ -91,6 +91,7 @@ namespace TSLab.DataSource
 		MlTechBinanceUsdtDS = 84,
 		MlTechOkxUsdtDS = 85,
         HyperliquidSpot = 86,
-        HyperliquidPerp = 87
+        HyperliquidPerp = 87,
+        BcsTradeApi = 88,
     }
 }
