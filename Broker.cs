@@ -93,5 +93,6 @@ namespace TSLab.DataSource
         HyperliquidSpot = 86,
         HyperliquidPerp = 87,
         BcsTradeApi = 88,
+        HyperliquidTradFi = 89,
     }
 }
